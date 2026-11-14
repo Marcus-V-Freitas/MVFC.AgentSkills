@@ -232,11 +232,3 @@ Contributions are welcome! Please read the [Contributing Guide](CONTRIBUTING.md)
 This project is licensed under the [Apache License 2.0](LICENSE).
 
 ---
-
-## Contributing
-
-Contributions are welcome! Please read the [Contributing Guide](CONTRIBUTING.md) before opening a pull request.
-
-## License
-
-This project is licensed under the [Apache License 2.0](LICENSE).
