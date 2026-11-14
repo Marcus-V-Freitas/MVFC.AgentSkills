@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.1.0] - 2026-11-14
+
+### Added
+
+- **`SECURITY.md`** — Security policy covering supported versions, vulnerability reporting channels, response timeline, scope, and out-of-scope items.
+
+### Changed
+
+- Repository renamed from **`dotnet-functional-use-case-spec`** to **`MVFC.AgentSkills`** to reflect its expanded scope as a general-purpose AI agent skill library. GitHub redirects from the old name automatically.
+
 ## [2.0.0] - 2026-11-14
 
 ### Added
@@ -52,15 +62,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- **`dotnet-functional-use-case-spec`** — Core skill for functional specification and decomposition of .NET use cases, with templates and reference documentation.
+- **`MVFC.AgentSkills`** — Core skill for functional specification and decomposition of .NET use cases, with templates and reference documentation.
 - **`banking-test-engineer`** — Automated test engineering skill using FluentAssertions, NSubstitute, Bogus, and AutoFaker.
 - **`pragmatic-technical-debt-review`** — Pragmatic technical debt review skill covering race conditions, idempotency, concurrency, and resilience.
 - **`requirements-insight-analyst`** — Requirements refinement skill from Jira/Azure Boards cards, screenshots, and OpenAPI contracts.
 - **`business-flow-documentation`** — Business flow documentation skill for post-implementation functional docs with Mermaid sequence diagrams.
 - **`banking-innovation-lab`** — Banking ideation and MVP structuring skill with or without AI under technical and regulatory constraints.
 
-[Unreleased]: https://github.com/Marcus-V-Freitas/dotnet-functional-use-case-spec/compare/v2.0.0...HEAD
-[2.0.0]: https://github.com/Marcus-V-Freitas/dotnet-functional-use-case-spec/compare/v1.1.0...v2.0.0
-[1.1.0]: https://github.com/Marcus-V-Freitas/dotnet-functional-use-case-spec/compare/v1.0.1...v1.1.0
-[1.0.1]: https://github.com/Marcus-V-Freitas/dotnet-functional-use-case-spec/compare/v1.0.0...v1.0.1
-[1.0.0]: https://github.com/Marcus-V-Freitas/dotnet-functional-use-case-spec/releases/tag/v1.0.0
+[Unreleased]: https://github.com/Marcus-V-Freitas/MVFC.AgentSkills/compare/v2.1.0...HEAD
+[2.1.0]: https://github.com/Marcus-V-Freitas/MVFC.AgentSkills/compare/v2.0.0...v2.1.0
+[2.0.0]: https://github.com/Marcus-V-Freitas/MVFC.AgentSkills/compare/v1.1.0...v2.0.0
+[1.1.0]: https://github.com/Marcus-V-Freitas/MVFC.AgentSkills/compare/v1.0.1...v1.1.0
+[1.0.1]: https://github.com/Marcus-V-Freitas/MVFC.AgentSkills/compare/v1.0.0...v1.0.1
+[1.0.0]: https://github.com/Marcus-V-Freitas/MVFC.AgentSkills/releases/tag/v1.0.0

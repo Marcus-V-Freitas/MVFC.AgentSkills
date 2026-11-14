@@ -1,4 +1,4 @@
-# .NET Functional Use Case Spec & Developer Skills Catalog
+# MVFC.AgentSkills — Developer Skills Catalog
 
 > 🇧🇷 [Versão em Português](README.pt-BR.md)
 

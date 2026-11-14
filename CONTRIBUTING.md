@@ -8,12 +8,19 @@ This repository is a catalog of **Agent Skills** for AI coding assistants (GitHu
 
 ## Table of Contents
 
-- [Code of Conduct](#code-of-conduct)
-- [How to Contribute](#how-to-contribute)
-- [Creating a New Skill](#creating-a-new-skill)
-- [Improving an Existing Skill](#improving-an-existing-skill)
-- [Pull Request Guidelines](#pull-request-guidelines)
-- [Commit Message Convention](#commit-message-convention)
+- [Contributing](#contributing)
+  - [Table of Contents](#table-of-contents)
+  - [Code of Conduct](#code-of-conduct)
+  - [How to Contribute](#how-to-contribute)
+  - [Creating a New Skill](#creating-a-new-skill)
+    - [Directory Structure](#directory-structure)
+    - [`SKILL.md` Required Format](#skillmd-required-format)
+    - [Skill Naming Guidelines](#skill-naming-guidelines)
+    - [Skill Quality Checklist](#skill-quality-checklist)
+  - [Improving an Existing Skill](#improving-an-existing-skill)
+  - [Pull Request Guidelines](#pull-request-guidelines)
+  - [Commit Message Convention](#commit-message-convention)
+  - [Questions?](#questions)
 
 ---
 
@@ -123,13 +130,13 @@ This project uses [Conventional Commits](https://www.conventionalcommits.org/):
 <type>: <short summary>
 ```
 
-| Type | When to use |
-| :--- | :--- |
-| `feat` | New skill or new capability in an existing skill |
-| `fix` | Bug fix or correction in skill logic/routing |
-| `docs` | README, CHANGELOG, or documentation-only changes |
-| `refactor` | Restructuring skill content without behavior change |
-| `chore` | Scripts, CI, install tooling, or repository housekeeping |
+| Type       | When to use                                              |
+| :--------- | :------------------------------------------------------- |
+| `feat`     | New skill or new capability in an existing skill         |
+| `fix`      | Bug fix or correction in skill logic/routing             |
+| `docs`     | README, CHANGELOG, or documentation-only changes         |
+| `refactor` | Restructuring skill content without behavior change      |
+| `chore`    | Scripts, CI, install tooling, or repository housekeeping |
 
 **Examples:**
 
@@ -144,4 +151,4 @@ chore: add Apache 2.0 license and CONTRIBUTING.md
 
 ## Questions?
 
-Open a [GitHub Discussion](https://github.com/Marcus-V-Freitas/dotnet-functional-use-case-spec/discussions) or an [Issue](https://github.com/Marcus-V-Freitas/dotnet-functional-use-case-spec/issues) — happy to help!
+Open a [GitHub Discussion](https://github.com/Marcus-V-Freitas/MVFC.AgentSkills/discussions) or an [Issue](https://github.com/Marcus-V-Freitas/MVFC.AgentSkills/issues) — happy to help!

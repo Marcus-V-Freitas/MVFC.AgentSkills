@@ -1,4 +1,4 @@
-# .NET Functional Use Case Spec & Catálogo de Developer Skills
+# MVFC.AgentSkills — Catálogo de Developer Skills
 
 > 🇺🇸 [English version](README.md)
 
@@ -55,47 +55,47 @@ Possible Outputs
 
 ### Especificação & Design
 
-| Skill | Foco Principal | Quando Usar |
-| :--- | :--- | :--- |
-| **[`dotnet-functional-use-case-spec`](./skills/dotnet-functional-use-case-spec/)** | Especificação e decomposição funcional | Mapeamento completo de entrada, validação, orquestração, outputs, erros e decomposição de casos de uso. |
-| **[`architecture-decision-advisor`](./skills/architecture-decision-advisor/)** | Decisões arquiteturais, trade-offs e ADRs | Escolha entre comunicação síncrona/assíncrona, consistência, topologia, Apigee e mensageria. |
-| **[`code-solution-designer`](./skills/code-solution-designer/)** | Design de algoritmos e estrutura interna | Desenho de algoritmos, tipos, fluxo e encaixe no código antes da implementação interna em C#/.NET. |
-| **[`implementation-plan-reviewer`](./skills/implementation-plan-reviewer/)** | Revisão de planos de implementação | Valida viabilidade, pré-requisitos, ordenação, riscos e rollback de um plano técnico antes da execução. |
-| **[`migration-strategy-planner`](./skills/migration-strategy-planner/)** | Planejamento de migrações seguras | Transições entre frameworks, schemas, bibliotecas, serviços ou topologias com rollout e rollback controlados. |
+| Skill                                                                              | Foco Principal                            | Quando Usar                                                                                                   |
+| :--------------------------------------------------------------------------------- | :---------------------------------------- | :------------------------------------------------------------------------------------------------------------ |
+| **[`dotnet-functional-use-case-spec`](./skills/dotnet-functional-use-case-spec/)** | Especificação e decomposição funcional    | Mapeamento completo de entrada, validação, orquestração, outputs, erros e decomposição de casos de uso.       |
+| **[`architecture-decision-advisor`](./skills/architecture-decision-advisor/)**     | Decisões arquiteturais, trade-offs e ADRs | Escolha entre comunicação síncrona/assíncrona, consistência, topologia, Apigee e mensageria.                  |
+| **[`code-solution-designer`](./skills/code-solution-designer/)**                   | Design de algoritmos e estrutura interna  | Desenho de algoritmos, tipos, fluxo e encaixe no código antes da implementação interna em C#/.NET.            |
+| **[`implementation-plan-reviewer`](./skills/implementation-plan-reviewer/)**       | Revisão de planos de implementação        | Valida viabilidade, pré-requisitos, ordenação, riscos e rollback de um plano técnico antes da execução.       |
+| **[`migration-strategy-planner`](./skills/migration-strategy-planner/)**           | Planejamento de migrações seguras         | Transições entre frameworks, schemas, bibliotecas, serviços ou topologias com rollout e rollback controlados. |
 
 ### Requisitos & Análise
 
-| Skill | Foco Principal | Quando Usar |
-| :--- | :--- | :--- |
-| **[`requirements-insight-analyst`](./skills/requirements-insight-analyst/)** | Análise e refinamento de requisitos | Tradução de cards Jira/Azure Boards, prints e contratos em fluxos sequenciais acionáveis e critérios de aceite. |
-| **[`change-impact-analyzer`](./skills/change-impact-analyzer/)** | Mapeamento de impacto de mudanças | Rastreia efeitos diretos e transitivos de uma mudança sobre contratos, callers, dados, testes e operações. |
-| **[`codebase-explorer`](./skills/codebase-explorer/)** | Navegação e orientação em repositórios | Explica entrypoints, módulos, dependências, fluxo de estado e onde realizar mudanças. Ideal para onboarding. |
+| Skill                                                                        | Foco Principal                         | Quando Usar                                                                                                     |
+| :--------------------------------------------------------------------------- | :------------------------------------- | :-------------------------------------------------------------------------------------------------------------- |
+| **[`requirements-insight-analyst`](./skills/requirements-insight-analyst/)** | Análise e refinamento de requisitos    | Tradução de cards Jira/Azure Boards, prints e contratos em fluxos sequenciais acionáveis e critérios de aceite. |
+| **[`change-impact-analyzer`](./skills/change-impact-analyzer/)**             | Mapeamento de impacto de mudanças      | Rastreia efeitos diretos e transitivos de uma mudança sobre contratos, callers, dados, testes e operações.      |
+| **[`codebase-explorer`](./skills/codebase-explorer/)**                       | Navegação e orientação em repositórios | Explica entrypoints, módulos, dependências, fluxo de estado e onde realizar mudanças. Ideal para onboarding.    |
 
 ### Qualidade & Testes
 
-| Skill | Foco Principal | Quando Usar |
-| :--- | :--- | :--- |
-| **[`banking-test-engineer`](./skills/banking-test-engineer/)** | Engenharia de testes automatizados C#/.NET | Criação de suítes completas de testes unitários/integração (FluentAssertions, NSubstitute, Bogus, AutoFaker). |
-| **[`test-quality-auditor`](./skills/test-quality-auditor/)** | Auditoria de qualidade de testes existentes | Avalia força evidenteial, oráculos, isolamento, determinismo e cobertura de riscos ausentes em suítes existentes. |
-| **[`code-review-specialist`](./skills/code-review-specialist/)** | Code review de PRs e diffs | Revisão rigorosa de correctude, confiabilidade, segurança e regressões em mudanças de código. |
-| **[`behavior-preserving-refactor`](./skills/behavior-preserving-refactor/)** | Refatoração segura sem mudança de comportamento | Simplificação, decomposição e remoção de duplicação preservando contratos e comportamento observável. |
+| Skill                                                                        | Foco Principal                                  | Quando Usar                                                                                                       |
+| :--------------------------------------------------------------------------- | :---------------------------------------------- | :---------------------------------------------------------------------------------------------------------------- |
+| **[`banking-test-engineer`](./skills/banking-test-engineer/)**               | Engenharia de testes automatizados C#/.NET      | Criação de suítes completas de testes unitários/integração (FluentAssertions, NSubstitute, Bogus, AutoFaker).     |
+| **[`test-quality-auditor`](./skills/test-quality-auditor/)**                 | Auditoria de qualidade de testes existentes     | Avalia força evidenteial, oráculos, isolamento, determinismo e cobertura de riscos ausentes em suítes existentes. |
+| **[`code-review-specialist`](./skills/code-review-specialist/)**             | Code review de PRs e diffs                      | Revisão rigorosa de correctude, confiabilidade, segurança e regressões em mudanças de código.                     |
+| **[`behavior-preserving-refactor`](./skills/behavior-preserving-refactor/)** | Refatoração segura sem mudança de comportamento | Simplificação, decomposição e remoção de duplicação preservando contratos e comportamento observável.             |
 
 ### Debugging & Operação
 
-| Skill | Foco Principal | Quando Usar |
-| :--- | :--- | :--- |
-| **[`evidence-driven-debugger`](./skills/evidence-driven-debugger/)** | Debugging baseado em evidências | Diagnóstico de crashes, outputs incorretos, bugs intermitentes e falhas inexplicadas com hipóteses falsificáveis. |
-| **[`root-cause-investigator`](./skills/root-cause-investigator/)** | Análise de incidentes e postmortems | Construção de timeline causal, fatores contribuintes e ações de prevenção para incidentes e falhas recorrentes. |
-| **[`performance-investigator`](./skills/performance-investigator/)** | Investigação de regressões de performance | Localiza o bottleneck dominante em latência, throughput, CPU, memória ou I/O com experimentos controlados. |
-| **[`observability-advisor`](./skills/observability-advisor/)** | Design de observabilidade operacional | Logs, métricas, traces, health signals e contexto diagnóstico para garantir visibilidade em produção. |
-| **[`security-reviewer`](./skills/security-reviewer/)** | Revisão de segurança defensiva | Identifica riscos acionáveis em código, configuração e fluxos: injection, exposição de dados, trust boundaries. |
-| **[`pragmatic-technical-debt-review`](./skills/pragmatic-technical-debt-review/)** | Code review de defeitos e riscos reais | Análise pragmática de concorrência, idempotência, race conditions, transações e perda de mensagens. |
+| Skill                                                                              | Foco Principal                            | Quando Usar                                                                                                       |
+| :--------------------------------------------------------------------------------- | :---------------------------------------- | :---------------------------------------------------------------------------------------------------------------- |
+| **[`evidence-driven-debugger`](./skills/evidence-driven-debugger/)**               | Debugging baseado em evidências           | Diagnóstico de crashes, outputs incorretos, bugs intermitentes e falhas inexplicadas com hipóteses falsificáveis. |
+| **[`root-cause-investigator`](./skills/root-cause-investigator/)**                 | Análise de incidentes e postmortems       | Construção de timeline causal, fatores contribuintes e ações de prevenção para incidentes e falhas recorrentes.   |
+| **[`performance-investigator`](./skills/performance-investigator/)**               | Investigação de regressões de performance | Localiza o bottleneck dominante em latência, throughput, CPU, memória ou I/O com experimentos controlados.        |
+| **[`observability-advisor`](./skills/observability-advisor/)**                     | Design de observabilidade operacional     | Logs, métricas, traces, health signals e contexto diagnóstico para garantir visibilidade em produção.             |
+| **[`security-reviewer`](./skills/security-reviewer/)**                             | Revisão de segurança defensiva            | Identifica riscos acionáveis em código, configuração e fluxos: injection, exposição de dados, trust boundaries.   |
+| **[`pragmatic-technical-debt-review`](./skills/pragmatic-technical-debt-review/)** | Code review de defeitos e riscos reais    | Análise pragmática de concorrência, idempotência, race conditions, transações e perda de mensagens.               |
 
 ### Domínio Bancário
 
-| Skill | Foco Principal | Quando Usar |
-| :--- | :--- | :--- |
-| **[`banking-innovation-lab`](./skills/banking-innovation-lab/)** | Ideação bancária e desenho de pilotos | Estruturação de MVPs e oportunidades com ou sem IA sob restrições técnicas e arquiteturais. |
+| Skill                                                                      | Foco Principal                          | Quando Usar                                                                                         |
+| :------------------------------------------------------------------------- | :-------------------------------------- | :-------------------------------------------------------------------------------------------------- |
+| **[`banking-innovation-lab`](./skills/banking-innovation-lab/)**           | Ideação bancária e desenho de pilotos   | Estruturação de MVPs e oportunidades com ou sem IA sob restrições técnicas e arquiteturais.         |
 | **[`business-flow-documentation`](./skills/business-flow-documentation/)** | Documentação de fluxos de negócio (.md) | Criação de documentação funcional pós-implementação em Markdown com diagramas Mermaid de sequência. |
 
 ---
