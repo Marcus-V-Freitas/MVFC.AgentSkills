@@ -7,7 +7,7 @@ Catálogo de **Agent Skills** especializadas para engenharia de software C#/.NET
 Projetado para agentes de IA como **GitHub Copilot**, **Claude Code**, **Gemini Code Assist / CLI** e **Google Antigravity**.
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
-[![Skills](https://img.shields.io/badge/skills-20-brightgreen)](#catálogo-de-skills)
+[![Skills](https://img.shields.io/badge/skills-21-brightgreen)](#catálogo-de-skills)
 [![Plataformas](https://img.shields.io/badge/plataformas-Copilot%20%7C%20Claude%20%7C%20Gemini%20%7C%20Antigravity-blueviolet)](#instalação-rápida)
 
 ---
@@ -70,6 +70,7 @@ Possible Outputs
 | **[`requirements-insight-analyst`](./skills/requirements-insight-analyst/)** | Análise e refinamento de requisitos    | Tradução de cards Jira/Azure Boards, prints e contratos em fluxos sequenciais acionáveis e critérios de aceite. |
 | **[`change-impact-analyzer`](./skills/change-impact-analyzer/)**             | Mapeamento de impacto de mudanças      | Rastreia efeitos diretos e transitivos de uma mudança sobre contratos, callers, dados, testes e operações.      |
 | **[`codebase-explorer`](./skills/codebase-explorer/)**                       | Navegação e orientação em repositórios | Explica entrypoints, módulos, dependências, fluxo de estado e onde realizar mudanças. Ideal para onboarding.    |
+| **[`graphify-codebase-intelligence`](./skills/graphify-codebase-intelligence/)** | Inteligência de código com grafo e evidências | Mapeia dependências, impactos de mudança, arquitetura, revisão de PRs e conformidade de fluxos e documentação. |
 
 ### Qualidade & Testes
 
@@ -137,6 +138,7 @@ As skills atuam sinergicamente durante o ciclo de engenharia:
 ```text
   codebase-explorer            → orientação em repositórios desconhecidos
   evidence-driven-debugger     → diagnóstico de bugs e falhas
+  graphify-codebase-intelligence → inteligência estrutural com grafo, impactos e conformidade de fluxos
   performance-investigator     → investigação de regressões de performance
   root-cause-investigator      → postmortems e análise de incidentes
   security-reviewer            → revisão de segurança defensiva
@@ -162,6 +164,7 @@ As skills atuam sinergicamente durante o ciclo de engenharia:
 │   ├── codebase-explorer/
 │   ├── dotnet-functional-use-case-spec/
 │   ├── evidence-driven-debugger/
+│   ├── graphify-codebase-intelligence/
 │   ├── implementation-plan-reviewer/
 │   ├── migration-strategy-planner/
 │   ├── observability-advisor/
@@ -172,8 +175,7 @@ As skills atuam sinergicamente durante o ciclo de engenharia:
 │   ├── security-reviewer/
 │   ├── test-quality-auditor/
 │   ├── install.ps1
-│   ├── install.sh
-│   └── README.md
+│   └── install.sh
 ├── CHANGELOG.md
 ├── CONTRIBUTING.md
 ├── LICENSE

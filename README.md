@@ -7,13 +7,7 @@ A catalog of **Agent Skills** specialized for C#/.NET software engineering, syst
 Designed for AI agents such as **GitHub Copilot**, **Claude Code**, **Gemini Code Assist / CLI**, and **Google Antigravity**.
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
-[![Skills](https://img.shields.io/badge/skills-20-brightgreen)](#skill-catalog)
-[![Platforms](https://img.shields.io/badge/platforms-Copilot%20%7C%20Claude%20%7C%20Gemini%20%7C%20Antigravity-blueviolet)](#quick-install)
-
-Designed for AI agents such as **GitHub Copilot**, **Claude Code**, **Gemini Code Assist / CLI**, and **Google Antigravity**.
-
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
-[![Skills](https://img.shields.io/badge/skills-20-brightgreen)](#skill-catalog)
+[![Skills](https://img.shields.io/badge/skills-21-brightgreen)](#skill-catalog)
 [![Platforms](https://img.shields.io/badge/platforms-Copilot%20%7C%20Claude%20%7C%20Gemini%20%7C%20Antigravity-blueviolet)](#quick-install)
 
 ---
@@ -76,6 +70,7 @@ Possible Outputs
 | **[`requirements-insight-analyst`](./skills/requirements-insight-analyst/)** | Requirements refinement and analysis  | Translating Jira/Azure Boards cards, screenshots, and OpenAPI contracts into sequential flows and acceptance criteria. |
 | **[`change-impact-analyzer`](./skills/change-impact-analyzer/)**             | Change impact mapping                 | Traces direct and transitive effects of a change across contracts, callers, data, tests, and operations.               |
 | **[`codebase-explorer`](./skills/codebase-explorer/)**                       | Repository navigation and orientation | Explains entrypoints, modules, dependencies, state flow, and where to make a change. Ideal for onboarding.             |
+| **[`graphify-codebase-intelligence`](./skills/graphify-codebase-intelligence/)** | Repository intelligence via graphs & evidence | Investigates structure, dependencies, change impacts, architecture, PR review surface, and flow/docs compliance using Graphify and code evidence. |
 
 ### Quality & Testing
 
@@ -143,6 +138,7 @@ Skills work synergistically throughout the engineering lifecycle:
 ```text
   codebase-explorer            → unfamiliar repository orientation
   evidence-driven-debugger     → bug and failure diagnosis
+  graphify-codebase-intelligence → graph- and code-backed dependency, impact, and flow analysis
   performance-investigator     → performance regression investigation
   root-cause-investigator      → postmortems and incident analysis
   security-reviewer            → defensive security review
@@ -168,6 +164,7 @@ Skills work synergistically throughout the engineering lifecycle:
 │   ├── codebase-explorer/
 │   ├── dotnet-functional-use-case-spec/
 │   ├── evidence-driven-debugger/
+│   ├── graphify-codebase-intelligence/
 │   ├── implementation-plan-reviewer/
 │   ├── migration-strategy-planner/
 │   ├── observability-advisor/
@@ -178,8 +175,7 @@ Skills work synergistically throughout the engineering lifecycle:
 │   ├── security-reviewer/
 │   ├── test-quality-auditor/
 │   ├── install.ps1
-│   ├── install.sh
-│   └── README.md
+│   └── install.sh
 ├── CHANGELOG.md
 ├── CONTRIBUTING.md
 ├── LICENSE

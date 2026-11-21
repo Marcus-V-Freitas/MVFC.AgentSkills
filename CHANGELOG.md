@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - **`graphify-codebase-intelligence`** — Investigates repositories using Graphify and code-backed evidence to map dependencies, change impact, architecture, PR reviews, feature extension points, and documentation/flow compliance. Compatible with Graphify MCP with graceful fallback to source-code analysis.
 
+### Changed
+
+- Updated `README.md` and `README.pt-BR.md` with `graphify-codebase-intelligence` in the skill catalog, workflow, repository structure, and updated the skill count badge to 21.
+
 ## [2.1.0] - 2026-11-14
 
 ### Added
@@ -73,7 +77,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **`business-flow-documentation`** — Business flow documentation skill for post-implementation functional docs with Mermaid sequence diagrams.
 - **`banking-innovation-lab`** — Banking ideation and MVP structuring skill with or without AI under technical and regulatory constraints.
 
-[2.2.0]: https://github.com/Marcus-V-Freitas/MVFC.AgentSkills/compare/v2.2.0...v2.2.0
+[2.2.0]: https://github.com/Marcus-V-Freitas/MVFC.AgentSkills/compare/v2.1.0...v2.2.0
 [2.1.0]: https://github.com/Marcus-V-Freitas/MVFC.AgentSkills/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/Marcus-V-Freitas/MVFC.AgentSkills/compare/v1.1.0...v2.0.0
 [1.1.0]: https://github.com/Marcus-V-Freitas/MVFC.AgentSkills/compare/v1.0.1...v1.1.0
