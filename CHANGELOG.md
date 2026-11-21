@@ -5,7 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [2.2.0] - 2026-11-20
+
+### Added
+
+- **`graphify-codebase-intelligence`** — Investigates repositories using Graphify and code-backed evidence to map dependencies, change impact, architecture, PR reviews, feature extension points, and documentation/flow compliance. Compatible with Graphify MCP with graceful fallback to source-code analysis.
 
 ## [2.1.0] - 2026-11-14
 
@@ -69,7 +73,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **`business-flow-documentation`** — Business flow documentation skill for post-implementation functional docs with Mermaid sequence diagrams.
 - **`banking-innovation-lab`** — Banking ideation and MVP structuring skill with or without AI under technical and regulatory constraints.
 
-[Unreleased]: https://github.com/Marcus-V-Freitas/MVFC.AgentSkills/compare/v2.1.0...HEAD
+[2.2.0]: https://github.com/Marcus-V-Freitas/MVFC.AgentSkills/compare/v2.2.0...v2.2.0
 [2.1.0]: https://github.com/Marcus-V-Freitas/MVFC.AgentSkills/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/Marcus-V-Freitas/MVFC.AgentSkills/compare/v1.1.0...v2.0.0
 [1.1.0]: https://github.com/Marcus-V-Freitas/MVFC.AgentSkills/compare/v1.0.1...v1.1.0
